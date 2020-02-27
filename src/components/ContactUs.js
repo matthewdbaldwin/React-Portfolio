@@ -9,17 +9,21 @@ export default class ContactUs extends Component {
               <p className="lead">
               Feel free to contact me for any work or suggestions below
               </p>
+              <ul className="social-links">
+                  {
+                    resumeData.socialLinks && resumeData.socialLinks.map(item =>{
+                      return(
+                              <li key={item.name}>
+                                <a href={item.url} target="_blank"><i className={item.className}>&nbsp;-&nbsp;{item.name}</i></a>
+                              </li>
+                            )
+                      }
+                    )
+                  }
+            </ul>
             </div>
           </div>
-          <div className="row">
-            <aside className="eigth columns footer-widgets">
-              <div className="widget">
-                <h4>Linked in :
-                  {resumeData.linkedinId}
-                </h4>
-              </div>
-            </aside>
-          </div>
+
         </section>
         );
   }
