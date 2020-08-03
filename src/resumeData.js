@@ -37,10 +37,10 @@ let resumeData = {
       },
       {
         "UniversityName":"Learning Fuze",
-        "specialization":"Full-stack development program is a 12-week intensive that teaches front-end and back-end subjects like JavaScript/jQuery, React, Node.js, PHP, MySQL, HTML, CSS, Amazon Web Services (AWS), Git/GitHub, and others.",
+        "specialization":"Full-stack development program ",
         "MonthOfPassing":"March",
         "YearOfPassing":"2020",
-        "Achievements":"Completed Full-stack development courses"
+        "Achievements":"Completed Full-stack development courses, a 12-week intensive that teaches front-end and back-end subjects like JavaScript/jQuery, React, Node.js, PHP, MySQL, HTML, CSS, Amazon Web Services (AWS), Git/GitHub, and others."
       }
     ],
     "work":[
@@ -73,27 +73,39 @@ let resumeData = {
         "skillname":"CSS3"
       },
       {
+        "skillname":"Photoshop"
+      },
+      {
+        "skillname":"Illustrator"
+      },
+      {
+        "skillname":"WordPress"
+      },
+      {
         "skillname":"JavaScript"
       },
       {
-        "skillname":"React.js"
+        "skillname":"React"
       }
     ],
     "portfolio":[
       {
         "name":"OneKeyData.com",
         "description":"website",
-        "imgurl":"images/portfolio/phone.jpg"
+        "imgurl":"/images/portfolio/onekeydata.png",
+        "src":"https://onekeydata.com"
       },
       {
         "name":"winwinbrewery.com",
         "description":"website",
-        "imgurl":"images/portfolio/project.jpg"
+        "imgurl":"/images/portfolio/sweet-corner.png",
+        "src":"https://matthewdbaldwin.com/sweet-corner"
       },
       {
         "name":"matthewdbaldwin.com",
         "description":"website",  
-        "imgurl":"images/portfolio/project2.png"
+        "imgurl":"/images/portfolio/winwin.png",
+        "src":"https://winwinbrewery.com/"
       }
     ],
     "testimonials":[
